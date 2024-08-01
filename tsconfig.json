@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["ESNext"],
+    "strict": true,
+    "allowJs": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/libs/database/migrations/migration.js",
+    "test/**/*.ts"
+  ]
+}
