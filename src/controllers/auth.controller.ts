@@ -1,6 +1,6 @@
 import { Response } from 'express'
 import { StatusCodes } from 'http-status-codes'
-import { ILike, Like, Not, Repository } from 'typeorm'
+import { ILike, Not, Repository } from 'typeorm'
 import { ExpressException } from '~/errors'
 import { UserEntity } from '~/libs'
 import { IRequest } from '~/types'
